@@ -37,11 +37,11 @@
 損失関数は以下の形で定義される。
 
 $$
-\text{Loss} = \text{output\_difference} + \alpha \times \text{gradient\_difference}
+\text{Loss} = \text{OutputDifference} + \alpha \times \text{GradientDifference}
 $$
 
-- `output_difference` は `f` と `g` の出力の差を計算。
-- `gradient_difference` は `grad f` と `grad g` の差を計算。
+- `Output_difference` は `f` と `g` の出力の差を計算。
+- `Gradient_difference` は `grad f` と `grad g` の差を計算。
 - `\alpha` は重みで、勾配の差異に対する優先度を調整する。特徴量の次元が10のとき、ここは5くらいがいいらしい。
 
 ---
