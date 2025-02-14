@@ -91,6 +91,6 @@ $$
 
 
 ## 参考文献
-Mishra, A., Ruder, S., & Black, M. J. (2017). Sobolev training for neural networks. *Advances in Neural Information Processing Systems*, 30, 4291–4300. https://proceedings.neurips.cc/paper/2017/file/758a06618c69880a6cee5314ee42d52f-Paper.pdf
+Wojciech Marian Czarnecki, Simon Osindero, Max Jaderberg Grzegorz Swirszcz, and Razvan Pascanu(2017). Sobolev training for neural networks. *Advances in Neural Information Processing Systems*, 30, 4291–4300. https://proceedings.neurips.cc/paper/2017/file/758a06618c69880a6cee5314ee42d52f-Paper.pdf
 
 
