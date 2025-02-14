@@ -26,7 +26,12 @@
 - `g` の性能向上を目指し、ソボレフ正則化を導入して、`gradients loss`（勾配の差異）を損失関数に取り入れる。
 
 ---
+## 実行環境
+- python==3.10.13
+- tensorflow==2.10.0
+実行方法はただsobolev_train.pyを実行するだけである。
 
+---
 ## ソボレフ正則化の導入
 
 ### 1. **出力と勾配の差異**
@@ -82,4 +87,10 @@ $$
 ## 今後の展望
 
 - ソボレフ正則化は、特にニューラルネットの縮小問題において有用なアプローチであり、大規模言語モデル以外の問題にも応用できる可能性がある。
+
+
+
+## 参考文献
+Mishra, A., Ruder, S., & Black, M. J. (2017). Sobolev training for neural networks. *Advances in Neural Information Processing Systems*, 30, 4291–4300. https://proceedings.neurips.cc/paper/2017/file/758a06618c69880a6cee5314ee42d52f-Paper.pdf
+
 
