@@ -40,9 +40,9 @@ $$
 \text{Loss} = \text{OutputDifference} + \alpha \times \text{GradientDifference}
 $$
 
-- `Output_difference` は `f` と `g` の出力の差を計算。
-- `Gradient_difference` は `grad f` と `grad g` の差を計算。
-- `\alpha` は重みで、勾配の差異に対する優先度を調整する。特徴量の次元が10のとき、ここは5くらいがいいらしい。
+- `OutputDifference` は `f` と `g` の出力の差を計算。
+- `GradientDifference` は `grad f` と `grad g` の差を計算。
+- `\alpha`は重みで、勾配の差異に対する優先度を調整する。特徴量の次元が10のとき、ここは5くらいがいいらしい。
 
 ---
 
