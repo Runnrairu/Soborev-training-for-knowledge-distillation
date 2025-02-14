@@ -37,7 +37,7 @@
 損失関数は以下の形で定義される。
 
 $$
-\text{Loss} = \text{OutputDifference} + \alpha \times \text{GradientDifference}
+\text{Loss} := \text{OutputDifference} + \alpha \times \text{GradientDifference}
 $$
 
 - `OutputDifference` は `f` と `g` の出力の差を計算。
