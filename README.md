@@ -29,6 +29,7 @@
 ## 実行環境
 - python==3.10.13
 - tensorflow==2.10.0
+- sklearn
 実行方法はただsobolev_train.pyを実行するだけである。
 
 ---
